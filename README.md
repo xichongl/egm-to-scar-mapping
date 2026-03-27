@@ -303,30 +303,9 @@ model_spec = cnn_stft.create_cnn_stft_model(
 print(model_spec)
 ```
 
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@software{egm_to_scar_2024,
-  title={EGM to Scar Mapping: Machine Learning Framework for Cardiac Electrogram Analysis},
-  author={Your Name and Team},
-  year={2024},
-  url={https://github.com/yourusername/egm-to-scar-mapping}
-}
-```
-
 ## License
 
 MIT License - See LICENSE file for details
-
-## Contributing
-
-Contributions welcome! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Add tests for new functionality
-4. Submit a pull request
 
 ## Troubleshooting
 
@@ -363,9 +342,6 @@ For questions or issues:
 2. Review example notebooks in `notebooks/` directory
 3. Check documentation in docstrings
 
-## Acknowledgments
-
-This research was supported by [funding sources/collaborators if applicable].
 
 ## Authors
 
