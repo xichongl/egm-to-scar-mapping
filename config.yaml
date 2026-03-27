@@ -1,0 +1,55 @@
+# EGM to Scar Mapping Configuration
+# Modify these settings for your specific use case.
+
+# Data paths (relative to project root)
+paths:
+  data_dir: "data/sample_data"
+  output_dir: "output"
+  model_dir: "models"
+
+# Data processing parameters
+data_params:
+  egm_sampling_rate: 1000  # Hz
+  egm_duration: 2.5  # seconds
+  egm_n_samples: 2500
+  egm_n_channels: 3
+  test_set_ratio: 0.2
+  val_set_ratio: 0.1
+  n_label_classes: 3
+  label_names:
+    - endocardial
+    - mid_myocardial
+    - epicardial
+
+# Model parameters loaded by src/config.py
+model_params:
+  cnn_stft:
+    batch_size: 32
+    epochs: 10
+    learning_rate: 1.0e-05
+    early_stopping_patience: 10
+    stft_scales: 3
+    stft_frame_sizes: [64, 256, 512]
+    stft_hop_sizes: [32, 128, 256]
+    spectrogram_size: 128
+    initial_filters: 16
+    dropout_rate: 0.2
+    l2_regularization: 0.0001
+
+  transformer:
+    batch_size: 32
+    epochs: 50
+    max_learning_rate: 5.0e-05
+    warmup_steps: 1000
+    patch_size: 50
+    d_model: 256
+    nhead: 8
+    num_encoder_layers: 8
+    dim_feedforward: 1024
+    dropout: 0.1
+    gradient_clip_norm: 1.0
+    loss_weights:
+      cross_channel: 0.3
+      intra_channel: 0.3
+      autoregressive: 0.3
+      contrastive: 0.1

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Build and outputs
+build/
+dist/
+output/
+models/
+
+# IDE
+.vscode/
+
+# Local data artifacts (keep folder structure, ignore generated arrays in sample_data)
+data/sample_data/*.npy
