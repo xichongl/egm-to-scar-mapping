@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using this metadata."
+title: "EGM to Scar Mapping: Model Development, Training, and Evaluation"
+type: software
+version: "1.0.0"
+date-released: "2026-03-27"
+repository-code: "https://github.com/xichongl/egm-to-scar-mapping"
+license: MIT
+authors:
+  - family-names: Liu
+    given-names: Xichong
+    affiliation: "Department of Medicine and Cardiovascular Institute, Stanford University, Stanford, CA"
+  - family-names: Qayyum
+    given-names: Abdul
+    affiliation: "National Heart and Lung Institute, Imperial College London, Hammersmith Hospital, Du Cane Road, London W12 0HS, UK"
+  - family-names: Bandyopadhyay
+    given-names: Sabyasachi
+    affiliation: "Department of Medicine and Cardiovascular Institute, Stanford University, Stanford, CA"
+  - family-names: Somani
+    given-names: Sulaiman
+    affiliation: "Department of Medicine and Cardiovascular Institute, Stanford University, Stanford, CA"
+  - family-names: Ganesan
+    given-names: Prasanth
+    affiliation: "Department of Medicine and Cardiovascular Institute, Stanford University, Stanford, CA"
+  - family-names: Ansari
+    given-names: Rayan
+    affiliation: "Department of Medicine and Cardiovascular Institute, Stanford University, Stanford, CA"
+  - family-names: Chang
+    given-names: Hui Ju
+    affiliation: "Department of Medicine and Cardiovascular Institute, Stanford University, Stanford, CA"
+  - family-names: Perino
+    given-names: Alexander C.
+    affiliation: "Department of Medicine and Cardiovascular Institute, Stanford University, Stanford, CA"
+  - family-names: Badhwar
+    given-names: Nitish
+    affiliation: "Department of Medicine and Cardiovascular Institute, Stanford University, Stanford, CA"
+  - family-names: Wang
+    given-names: Paul J.
+    affiliation: "Department of Medicine and Cardiovascular Institute, Stanford University, Stanford, CA"
+  - family-names: Niederer
+    given-names: Steven
+    affiliation: "National Heart and Lung Institute, Imperial College London, Hammersmith Hospital, Du Cane Road, London W12 0HS, UK"
+  - family-names: Narayan
+    given-names: Sanjiv M.
+    affiliation: "Department of Medicine and Cardiovascular Institute, Stanford University, Stanford, CA"
+  - family-names: Rogers
+    given-names: Albert J.
+    affiliation: "Department of Medicine and Cardiovascular Institute, Stanford University, Stanford, CA"
